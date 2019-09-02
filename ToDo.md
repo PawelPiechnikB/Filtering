@@ -4,6 +4,7 @@ Create filtering library which can work with IQueryable<T> and IEnumerable<T>.
 * We should be able to filter numbers, string, range of numbers, range of dates
 
 * filtering operators:
+
 ** equal, less than, more than for numbers
 ** equal string trim lowercase for strings
 ** contain string trim lowercase for strings
