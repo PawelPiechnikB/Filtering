@@ -1,0 +1,97 @@
+// sample.TissueType.Name.Contains("xxx")
+
+interface IFilterElement
+{
+    Expresion CreateExpresion();
+}
+
+class FilterElement : IFilterElement
+{
+    public string Property { get;set; }
+
+    public object Value { get; set; }
+
+    public FilteringOperator Operator { get; set; }
+
+    public Expresion CreateExpresion()
+    {
+        // throw new NotImplementedException();
+    }
+}
+
+class FilterCollection : IFilterElement
+{
+    public IList<IFilterElement> Elements { get; set; } 
+
+    public FilterCollectionOperator Operator { get; set; } 
+
+    public Expresion CreateExpresion()
+    {
+        // use Elements and Operator to build Expression
+        // throw new NotImplementedException();
+    }
+}
+
+public enum FilterCollectionOperator
+{
+    And,
+    Or
+}
+
+public enum FilteringOperator
+{
+    Equals,
+    NotEquals,
+    Contains
+}
+
+IQueryable<TissueSample> query = Enumerable.Empty<TissueSample>().AsQueryable();
+
+sample => (sample.TissueType.Name.Contains("xxx1") || sample.TissueType.Name.Contains("xxx2")) 
+            && sample.FixativeUsed.Name.Contains("yyyy1")
+
+var filterElement = new FilterCollection()
+{
+    Elements = new List<IFilterElement>
+    {
+        new FilterCollection()
+        {
+            Elements = new List<IFilterElement>
+            {
+                new FilterElement
+                {
+                    Property = sample.TissueType.Name,
+                    Operator = FilteringOperator.Contains,
+                    Value = "xxx1"
+                },
+                new FilterElement
+                {
+                    Property = sample.TissueType.Name,
+                    Operator = FilteringOperator.Contains,
+                    Value = "xxx2"
+                },
+            },
+            Operator = FilterCollectionOperator.Or
+        },
+        new FilterElement
+        {
+            Property = sample.FixativeUsed.Name,
+            Operator = FilteringOperator.Contains,
+            Value = "yyyy1"
+        },
+    },
+    Operator = FilterCollectionOperator.And
+}
+
+
+query.Filter(filterElement.CreateExpression())
+
+public static class FilteringExtension
+{
+    public IQueryable<T> Filter(this IQueryable<T> query, IFilterElement filterElement)
+    {
+        var expr = (Expresion<Func<T, bool>>)collection.CreateExpresion();
+        return query.Where(expr);
+    }
+
+}
