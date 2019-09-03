@@ -25,3 +25,10 @@ Answer: filtering-structure.md
 How composite design pattern can help to implements filtering?
 
 Answer: https://sourcemaking.com/design_patterns/composite
+
+
+
+Task 1:
+Write console application which show example of filtering for following parameter:
+
+((sample.TissueType.Name == "xxx1") || (sample.TissueType.Name == "xxx2")) && sample.FixativeUsed.Name == "yyyy1"
