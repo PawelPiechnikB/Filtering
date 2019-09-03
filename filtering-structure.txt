@@ -60,13 +60,13 @@ var filterElement = new FilterCollection()
             {
                 new FilterElement
                 {
-                    Property = sample.TissueType.Name,
+                    Property = "TissueType.Name",
                     Operator = FilteringOperator.Contains,
                     Value = "xxx1"
                 },
                 new FilterElement
                 {
-                    Property = sample.TissueType.Name,
+                    Property = "TissueType.Name",
                     Operator = FilteringOperator.Contains,
                     Value = "xxx2"
                 },
@@ -75,7 +75,7 @@ var filterElement = new FilterCollection()
         },
         new FilterElement
         {
-            Property = sample.FixativeUsed.Name,
+            Property = "FixativeUsed.Name",
             Operator = FilteringOperator.Contains,
             Value = "yyyy1"
         },
