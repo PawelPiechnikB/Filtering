@@ -11,7 +11,11 @@ Create filtering library which can work with IQueryable<T> and IEnumerable<T>.
   * equal for enums
 
 Guiding questions:
+
 How filtering library should use IQueryable<T> and IEnumerable<T> during filtering?
+
 What type of API in .NET we should use?
+
 What kind of structure will be best to represent what is being filtered?
+
 How composite design pattern can help to implements filtering?
