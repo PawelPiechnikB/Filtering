@@ -11,12 +11,15 @@ Create filtering library which can work with IQueryable<T> and IEnumerable<T>.
 Guiding questions:
 
 How filtering library should use IQueryable<T> and IEnumerable<T> during filtering?
-*Answer*: Use Where() method.
+
+Answer: Use Where() method.
 
 What type of API in .NET we should use? 
-*Answer*: Expression API (Expression static class).
+
+Answer: Expression API (Expression static class).
 
 What kind of structure will be best to represent what is being filtered?
-*Answer*: filtering-structure.md
+
+Answer: filtering-structure.md
 
 How composite design pattern can help to implements filtering?
