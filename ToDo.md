@@ -23,3 +23,5 @@ What kind of structure will be best to represent what is being filtered?
 Answer: filtering-structure.md
 
 How composite design pattern can help to implements filtering?
+
+Answer: https://sourcemaking.com/design_patterns/composite
