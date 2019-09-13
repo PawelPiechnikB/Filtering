@@ -51,3 +51,12 @@ Task 2:
     HINT:
     Find specific design pattern which solves that problem. ANSWER: Decorator
 
+- Model for filtering:
+  class Employee
+  {
+      public string FirstName {get; set;}
+      public string LastName {get; set;}
+      public int Age { get; }
+      public ICollection<Person> Subordinates {get; set;}
+  }
+ Autofixture can be helpfull to have mocked data https://github.com/AutoFixture/AutoFixture
