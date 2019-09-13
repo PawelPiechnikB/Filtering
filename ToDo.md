@@ -32,3 +32,22 @@ Task 1:
 Write console application which show example of filtering for following parameter:
 
 ((sample.TissueType.Name == "xxx1") || (sample.TissueType.Name == "xxx2")) && sample.FixativeUsed.Name == "yyyy1"
+
+Task 2:
+- use interface and classes to represent operators which will be responsible for doing operation
+- create separate project forr yor filtering mechanism
+- implement following operators: 
+  - equal, 
+  - not equal, 
+  - contains, 
+  - count, example TissueTypes.Count() == 4
+    - Expresion.Call doesn't care that Count() is extension method, for Expresion.Call Count() is static method and in that way it should be called using Expresion.Call
+  - "less than" or "less than or equal", example TissueSample.NumberOfSamples <= 1, TissueSample.NumberOfSamples < 1
+  - "greater than" or "greater than or equal"
+  - range, example TissueSample.NumberOfSamples => 1 && TissueSample.NumberOfSamples <= 1
+  - I want to execute following expresions, please use existing operators:
+    - TissueType.Name.Trim().ToLower().Contains("xxx1".Trim().ToLower())
+    - TissueType.Name.ToLower() == "xxx1".ToLower()
+    HINT:
+    Find specific design pattern which solves that problem. ANSWER: Decorator
+
