@@ -33,6 +33,8 @@ Write console application which show example of filtering for following paramete
 
 ((sample.TissueType.Name == "xxx1") || (sample.TissueType.Name == "xxx2")) && sample.FixativeUsed.Name == "yyyy1"
 
+
+
 Task 2:
 - use interface and classes to represent operators which will be responsible for doing operation
 - create separate project forr yor filtering mechanism
@@ -52,6 +54,8 @@ Task 2:
     Find specific design pattern which solves that problem. ANSWER: Decorator
 - create unit tests for each operator in separate project Filtering.Tests
 - Model for filtering:
+
+```
   class Employee
   {
       public string FirstName {get; set;}
@@ -59,6 +63,8 @@ Task 2:
       public int Age { get; }
       public ICollection<Person> Subordinates {get; set;}
   }
+```
+
  Autofixture can be helpfull to have mocked data https://github.com/AutoFixture/AutoFixture
  
  - read about design patern Composite https://sourcemaking.com/design_patterns/composite
