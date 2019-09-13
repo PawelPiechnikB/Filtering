@@ -50,7 +50,7 @@ Task 2:
     - TissueType.Name.ToLower() == "xxx1".ToLower()
     HINT:
     Find specific design pattern which solves that problem. ANSWER: Decorator
-
+- create unit tests for each operator in separate project Filtering.Tests
 - Model for filtering:
   class Employee
   {
@@ -60,3 +60,7 @@ Task 2:
       public ICollection<Person> Subordinates {get; set;}
   }
  Autofixture can be helpfull to have mocked data https://github.com/AutoFixture/AutoFixture
+ 
+ - read about design patern Composite https://sourcemaking.com/design_patterns/composite
+ - read about design patern Decorator https://sourcemaking.com/design_patterns/decorator
+ - very good book about design patterns: Design Patterns: Elements of Reusable Object-Oriented Software
