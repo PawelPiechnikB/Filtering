@@ -28,14 +28,13 @@ Answer: https://sourcemaking.com/design_patterns/composite
 
 
 
-Task 1:
+# Task 1:
 Write console application which show example of filtering for following parameter:
 
 ((sample.TissueType.Name == "xxx1") || (sample.TissueType.Name == "xxx2")) && sample.FixativeUsed.Name == "yyyy1"
 
 
-
-Task 2:
+# Task 2:
 - use interface and classes to represent operators which will be responsible for doing operation
 - create separate project forr yor filtering mechanism
 - implement following operators: 
@@ -71,14 +70,16 @@ Task 2:
  - read about design patern Decorator https://sourcemaking.com/design_patterns/decorator
  - very good book about design patterns: Design Patterns: Elements of Reusable Object-Oriented Software
 
-Task 3 Read theory about expressions in .NET
+# Task 3 Read theory about expressions in .NET
 
 * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
 * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
 * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/
 
 
-Task 4 Write application in Blazor
+# Task 4 Write application in Blazor
+
+In the future we will be using blazor as our frontend of our application in which we will be using filtering library. Right now we need to know Blazor as seperate thing more precisely.
 
 Read about web assembly here. Can be briefly:
 * https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_wasm
@@ -95,3 +96,4 @@ Write application which you should have by doing application described in last u
 	- list with tasks should be refresh using endpoint
 	- when you mark task as completed it should be also saved in database
 	- add checkbox which allows to see / hide completed tasks
+
