@@ -75,3 +75,19 @@ Task 3
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/
+
+
+
+Task 4
+https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_wasm
+https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.0
+https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.0&tabs=visual-studio
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-your-first-blazor-app?view=aspnetcore-3.0
+
+Extend todo list app:
+- add database and entitis fore todo app
+- when you finish tutorial for todo app extend it with following features:
+	- when you click add button new task should be saved in database
+	- list with tasks should be refresh using endpoint
+	- when you mark task as completed it should be also saved in database
+	- add checkbox which allows to see / hide completed tasks
