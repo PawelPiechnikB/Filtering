@@ -73,20 +73,20 @@ Task 2:
 
 Task 3 Read theory about expressions in .NET
 
-https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
-https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
-https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/
+* https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
+* https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
+* https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/
 
 
 Task 4 Write application in Blazor
 
 Read about web assembly here. Can be briefly:
-https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_wasm
+* https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_wasm
 
 Read and do all following links:
-https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.0
-https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.0&tabs=visual-studio
-https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-your-first-blazor-app?view=aspnetcore-3.0
+* https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.0
+* https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.0&tabs=visual-studio
+* https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-your-first-blazor-app?view=aspnetcore-3.0
 
 Write application which you should have by doing application described in last url. Extend this application with following features:
 - add database and entitis fore todo app
