@@ -72,6 +72,7 @@ Task 2:
  - very good book about design patterns: Design Patterns: Elements of Reusable Object-Oriented Software
 
 Task 3
+
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/
@@ -79,6 +80,7 @@ https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expres
 
 
 Task 4
+
 https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_wasm
 https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.0
 https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.0&tabs=visual-studio
