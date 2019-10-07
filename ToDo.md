@@ -70,3 +70,8 @@ Task 2:
  - read about design patern Composite https://sourcemaking.com/design_patterns/composite
  - read about design patern Decorator https://sourcemaking.com/design_patterns/decorator
  - very good book about design patterns: Design Patterns: Elements of Reusable Object-Oriented Software
+
+Task 3
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/
