@@ -97,3 +97,6 @@ Write application which you should have by doing application described in last u
 	- when you mark task as completed it should be also saved in database
 	- add checkbox which allows to see / hide completed tasks
 
+# Task 4.1 Add searching to todo app
+- add searching to todo app using Blazored Typeahead https://github.com/Blazored/Typeahead
+- watch https://www.youtube.com/watch?v=qF6ixMjCzHA
