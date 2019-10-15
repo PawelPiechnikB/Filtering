@@ -100,3 +100,13 @@ Write application which you should have by doing application described in last u
 # Task 4.1 Add searching to todo app
 - add searching to todo app using Blazored Typeahead https://github.com/Blazored/Typeahead
 - watch https://www.youtube.com/watch?v=qF6ixMjCzHA
+
+# Task 5
+- Watch Robert C Martin - Clean Architecture and Design https://www.youtube.com/watch?v=Nsjsiz2A9mg
+	- https://www.google.com/search?q=clean+architecture&rlz=1C1GCEA_enPL835PL835&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiS-rbqv53lAhULCewKHZ0YADwQ_AUIEigB&biw=1920&bih=937#imgrc=Z36W6EF94PRRHM:
+- create solution in VS in clean Architecture by Robert C Martin
+	- add filtering library
+	- create database based on your models
+	- add page in blazor which displays data based on your Employee models
+	- add filters to that page
+	
