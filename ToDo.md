@@ -109,4 +109,8 @@ Write application which you should have by doing application described in last u
 	- create database based on your models
 	- add page in blazor which displays data based on your Employee models
 	- add filters to that page
-	
+
+# Task 6
+- add endpoint which allows to filter Employess in full power so you could filter employes with following requirement: 
+	- Employee.LastName = "O'Brian" AND (Employee.Age => 30 AND Employee.Age <= 50)
+	- Employee.Occupation.Name = "Director" OR Employee.Occupation.Name = "Manager"
